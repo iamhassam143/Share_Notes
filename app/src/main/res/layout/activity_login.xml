@@ -69,6 +69,7 @@
                 android:inputType="text"
                 android:background="@drawable/et_ui"
                 android:layout_marginRight="30dp"
+                android:textColor="@color/colorWhite"
                 android:layout_marginLeft="30dp"/>
 
             <EditText
@@ -86,6 +87,7 @@
                 android:inputType="textPassword"
                 android:background="@drawable/et_ui"
                 android:layout_marginRight="30dp"
+                android:textColor="@color/colorWhite"
                 android:layout_marginLeft="30dp"/>
 
             <Button
