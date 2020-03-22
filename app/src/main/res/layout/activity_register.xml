@@ -43,17 +43,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center">
+
             <TextView
                 android:id="@+id/tvMountain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Register"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="50dp"
-                android:textSize="60sp"
-                android:textStyle="bold"
                 android:fontFamily="@font/baloo"
-                android:textColor="@color/colorWhite"/>
+                android:text="Register"
+                android:textColor="@color/colorWhite"
+                android:textSize="60sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etUsername1"
@@ -66,7 +67,7 @@
                 android:paddingTop="15dp"
                 android:textSize="14dp"
                 android:paddingBottom="15dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="50dp"
                 android:inputType="text"
                 android:background="@drawable/et_ui"
                 android:layout_marginRight="30dp"
@@ -110,7 +111,7 @@
                 android:layout_marginLeft="30dp"/>
 
             <Button
-                android:id="@+id/btLogin"
+                android:id="@+id/btReg"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/etPassword"
@@ -124,14 +125,14 @@
                 android:id="@+id/ll1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/btLogin"
+                android:layout_below="@+id/btReg"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="65dp"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="I Have Alredy Register"/>
+                    android:text="I Have Already Register"/>
 
                 <TextView
                     android:layout_width="wrap_content"

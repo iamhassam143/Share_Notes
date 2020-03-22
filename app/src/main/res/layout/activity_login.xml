@@ -65,7 +65,7 @@
                 android:paddingTop="15dp"
                 android:textSize="14dp"
                 android:paddingBottom="15dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="50dp"
                 android:inputType="text"
                 android:background="@drawable/et_ui"
                 android:layout_marginRight="30dp"

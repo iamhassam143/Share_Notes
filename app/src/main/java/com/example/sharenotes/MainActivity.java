@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity
     private static int SPLASH_SCREEN_TIME_OUT=2000;
 
     //animation
-      View first,second,third,fourth,fifth,sixth;
+      View first,second,third,fourth,fifth,sixth,seventh;
     ImageView a;
     //Animations
     Animation topAnimantion,middleAnimation;
@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity
         fourth = findViewById(R.id.fourth_line);
         fifth = findViewById(R.id.fifth_line);
         sixth = findViewById(R.id.sixth_line);
+        seventh=findViewById(R.id.seventh_line);
         a = findViewById(R.id.Mainlogo);
 
 
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity
         fourth.setAnimation(topAnimantion);
         fifth.setAnimation(topAnimantion);
         sixth.setAnimation(topAnimantion);
+        seventh.setAnimation(topAnimantion);
         a.setAnimation(middleAnimation);
 
 

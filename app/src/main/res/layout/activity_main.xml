@@ -27,12 +27,12 @@
 
     <ImageView
         android:id="@+id/Mainlogo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
         android:layout_below="@+id/flayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:src="@drawable/cloud1" />
+        android:src="@drawable/sn2" />
 
 
     <RelativeLayout
@@ -42,22 +42,22 @@
 
         <View
             android:id="@+id/first_line"
-            android:layout_width="20dp"
+            android:layout_width="15dp"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:background="@drawable/second_green" />
 
         <View
             android:id="@+id/second_line"
-            android:layout_width="20dp"
+            android:layout_width="15dp"
             android:layout_height="100dp"
             android:layout_marginLeft="8dp"
             android:layout_toRightOf="@+id/first_line"
-            android:background="@drawable/third_yellow" />
+            android:background="@drawable/fifth_white" />
 
         <View
             android:id="@+id/third_line"
-            android:layout_width="20dp"
+            android:layout_width="15dp"
             android:layout_height="250dp"
             android:layout_marginLeft="8dp"
             android:layout_toRightOf="@+id/second_line"
@@ -65,27 +65,35 @@
 
         <View
             android:id="@+id/fourth_line"
-            android:layout_width="20dp"
+            android:layout_width="15dp"
             android:layout_height="200dp"
             android:layout_marginLeft="8dp"
             android:layout_toRightOf="@+id/third_line"
-            android:background="@drawable/third_yellow" />
-
-        <View
-            android:id="@+id/fifth_line"
-            android:layout_width="20dp"
-            android:layout_height="220dp"
-            android:layout_marginLeft="8dp"
-            android:layout_toRightOf="@+id/fourth_line"
             android:background="@drawable/second_green" />
 
         <View
+            android:id="@+id/fifth_line"
+            android:layout_width="15dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/fourth_line"
+            android:background="@drawable/fifth_white" />
+
+        <View
             android:id="@+id/sixth_line"
-            android:layout_width="20dp"
+            android:layout_width="15dp"
             android:layout_height="150dp"
             android:layout_marginLeft="8dp"
             android:layout_toRightOf="@+id/fifth_line"
             android:background="@drawable/fourth_red" />
+
+        <View
+            android:id="@+id/seventh_line"
+            android:layout_width="15dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/sixth_line"
+            android:background="@drawable/second_green" />
     </RelativeLayout>
 
 
